@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  overflow: visible;
+}
+
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 100px;
+  background: rgba(239, 91, 91, 1);
+  color: white;
+  
+  font-weight: bold;
+}
+
+.left-links{
+  font-weight: bold;
+  color: white;
+}
+.right-links{
+  color: white;
+}
+
+
+.header, .footer{
+  background-color: rgba(36, 132, 111, 1);
+
+
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  
+}
+.header{
+ 
+  align-content: flex-start;
+}
+
+.b1content{
+  background-color: rgba(36, 132, 111, 1);
+  display: flex;
+  flex: 1;
+  padding: 16px;
+  gap: 32px;
+  color: white;
+  align-items: flex-end;  
+  justify-content: center;
+  place-content:  center;
+ 
+  flex-flow: row wrap-reverse;
+}
+.leftb1{
+  width: 300px;
+}
+.rightb1{
+  width: 250px;
+}
+.b2header{
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  place-content:  center;
+  background-color: rgba(228, 223, 218, 1);
+}
+.b2content{
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  padding: 16px;
+  gap: 32px;
+  align-items: flex-start;
+  place-content:  center;
+  background-color: rgba(228, 223, 218, 1);
+}
+.iconcontent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  gap: 8px;
+}
+.iconimg{
+  /*border: none;
+  box-shadow: inset;*/
+  border-color: rgba(36, 132, 111, 1);
+  border-radius: 100px;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+    
+}
+
+.footer{
+  align-content: flex-end;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+a {
+  color: rgba(228, 223, 218, 1);
+  text-decoration: none;
+}
+
+
+
+
+
+.b3content{
+  color:  rgba(228, 223, 218, 1);
+  ;
+  width: 800px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+
+}
+
+
+.b4content{
+  display: flex;
+  align-items: flex-start;
+  
+  justify-content: center;
+  place-content:  center;
+  background-color: rgba(228, 223, 218, 1);
+}
+/*gelo gray rgba(228, 223, 218, 1) browny rgba(212, 180, 131, 1)*/
