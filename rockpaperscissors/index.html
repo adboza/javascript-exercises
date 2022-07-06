@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <script src="rps.js"></script></script><!--  -->
+    
     <div class="header">
         <ul class="left-links">
           <li>Rock, Paper, Scissors Challenge</li>
@@ -23,21 +23,29 @@
     </div>
     <div class="b2content">
         <div class="iconcontent">
-          <button><img class="iconimg" src="pedras.jpg" alt="rock image"> </img></button>
+          <button type="submit" id="rock"><img class="iconimg" src="pedras.jpg" alt="rock image"> </img></button>
           <p class="icontext">ROCK</p>
         </div>      
         <div class="iconcontent">
-          <button><img class="iconimg" src="papel.jpg" alt="paper image"></img></button>
+          <button id="paper" value="paper"><img class="iconimg" src="papel.jpg" alt="paper image"></img></button>
          <p class="icontext">PAPER</p>
         </div>
         <div class="iconcontent">
-         <button><img class="iconimg" src="scissor.jpg" alt="scissors image"></img></button>
+         <button type="submit"  id="scissors"><img class="iconimg" src="scissor.jpg" alt="scissors image"></img></button>
          <p class="icontext">SCISSORS</p>
         </div>
+
+        <script src="rps.js" defer></script><!--  -->
         
+      </div>
+      <div class="content">
+        <h2 id="msg"></h2>
+        <p>Your score is: <em id="yourScore"></em></p>
+        <p>Computer score is: <em id="cpScore"></em></p>
       </div>
       <div class="footer">
         <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a>
       </div>
+      
 </body>
 </html>
